@@ -1,0 +1,10 @@
+Proceso ParImpar
+	Definir numero Como Entero;
+	Escribir 'ingresar numero';
+	Leer numero;
+	Si numero/2==0 Entonces
+		Escribir "Su numero es par";
+	SiNo
+		Escribir "Su numero es impar";
+	FinSi
+FinProceso

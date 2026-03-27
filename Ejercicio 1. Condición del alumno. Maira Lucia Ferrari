@@ -1,0 +1,16 @@
+Proceso CondicionAlumno
+	Definir nota1, nota2, nota3 Como Entero;
+	definir promedio como real;
+	Escribir "ingresar nota del primer parcial";
+	Leer nota1;
+	Escribir "ingresar nota del segundo parcial";
+	Leer nota2;
+	Escribir "ingresar nota del tercer parcial";
+	Leer nota3;
+	promedio <- (nota1+nota2+nota3)/3;
+	Si promedio >=6 Entonces
+		Escribir "No rinde final";
+	SiNo
+		Escribir "Rinde final";
+	FinSi
+FinProceso

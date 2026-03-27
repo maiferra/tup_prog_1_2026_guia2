@@ -1,0 +1,15 @@
+Proceso PosNegCero
+	Definir num Como Entero;
+	Escribir 'Ingrese el numero';
+	Leer num;
+	Si num>0 Entonces
+		Escribir 'Es positivo';
+	SiNo
+		Si num<0 Entonces
+			Escribir 'Es negativo';
+		FinSi
+	FinSi
+	Si num==0 Entonces
+		Escribir 'Es cero';
+	FinSi
+FinProceso
